@@ -10,15 +10,45 @@ header{
 h1{
   color: #ffffff;
   margin-left: 3%;
-<<<<<<< HEAD
 =======
 }
 header p{
   color:#ffffff;
   text-align: center;
   font-size: 26px;
->>>>>>> 3ead3ed33c6701a30a28fd249b5aec5368525134
 }
+
+select{
+
+ padding:0.5%;
+
+ margin-left: 3%;
+
+ margin-right: 2%;
+
+ margin-top: 2%;
+
+}
+
+footer{
+
+ background-color: #4f4848
+
+;
+
+ padding-top: 0.5%;
+
+ padding-bottom: 0.5%;
+
+ margin-top: 2%;
+
+}
+
+footer h3{
+
+ color: #ffffff;
+
+ }
 
 .carousel-inner .active.left { left: -33%; }
 .carousel-inner .next        { left:  33%; }

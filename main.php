@@ -40,11 +40,29 @@
         </div>
     </div>
   <form class="" action="index.html" method="post">
-    </div>
+   <select name="librairieTexte">
+
+     <option value=""disabled selected>Sélectionner un Texte</option>
+
+     <option value="Mom say's, alcohol is your ennemy.Jesus say's: love your ennemy.">Mom say's, alcohol is your ennemy.Jesus say's: love your ennemy.</option>
+
+     <option value="Happy friday! ...Wait sorry it's monday">Happy friday! ...Wait sorry it's monday</option>
+
+     <option value="Are u a wizard?">Are u a wizard?</option>
+
+     <option value="I'm on a seafood diet. I see food and I eat it">I'm on a seafood diet. I see food and I eat it</option>
+
+   </select>
+
+   <p>OU</p>
+
+   <label for=""></label>
+
+   <input type="text" name="" value="">
+    <label for=""></label>
+    <input type="text" name="" value="">
+    <label for=""></label>
+    <input type="text" name="" value="">
   </form>
-    <label for=""></label>
-    <input type="text" name="" value="">
-    <label for=""></label>
-    <input type="text" name="" value="">
 </main>
 <!-- texte-->
