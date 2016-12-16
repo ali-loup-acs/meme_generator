@@ -10,6 +10,3 @@
   <header>
       <h1>Meme Generator</h1>
   </header>
-
-  </body>
-  </html>
