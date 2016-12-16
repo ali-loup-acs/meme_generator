@@ -9,6 +9,7 @@
   <body>
   <header>
       <h1>Meme Generator</h1>
+      <p>Enjoy it!</p>
   </header>
 
   </body>

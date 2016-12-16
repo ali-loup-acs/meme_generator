@@ -4,10 +4,15 @@
 
 header{
   background-color: #4f4848;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 h1{
   color: #ffffff;
-  margin-left: 3%; 
+  margin-left: 3%;
+}
+header p{
+  color:#ffffff;
+  text-align: center;
+  font-size: 26px;
 }
