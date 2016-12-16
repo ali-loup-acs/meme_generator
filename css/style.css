@@ -4,12 +4,20 @@
 
 header{
   background-color: #4f4848;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 h1{
   color: #ffffff;
   margin-left: 3%;
+<<<<<<< HEAD
+=======
+}
+header p{
+  color:#ffffff;
+  text-align: center;
+  font-size: 26px;
+>>>>>>> 3ead3ed33c6701a30a28fd249b5aec5368525134
 }
 
 .carousel-inner .active.left { left: -33%; }
