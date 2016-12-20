@@ -1,59 +1,106 @@
-.container{
-
-}
-
 header{
   background-color: #4f4848;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 h1{
-  color: #ffffff;
+  color: #FCD202;
   margin-left: 3%;
 =======
 }
 header p{
-  color:#ffffff;
+  color:#FCD202;
   text-align: center;
   font-size: 26px;
 }
 
 select{
-
  padding:0.5%;
-
- margin-left: 3%;
-
  margin-right: 2%;
-
  margin-top: 2%;
-
 }
 
 footer{
-
- background-color: #4f4848
-
-;
-
+ background-color: #4f4848;
  padding-top: 0.5%;
-
  padding-bottom: 0.5%;
-
  margin-top: 2%;
+ display: flex;
+ display: -webkit-flex;
+ flex-direction: row-reverse;
+ justify-content:space-around;
+ align-items: center;
 
 }
 
 footer h3{
-
- color: #ffffff;
-
+ color: #FCD202;
+ margin-left: 3%;
  }
 
-.carousel-inner .active.left { left: -33%; }
-.carousel-inner .next        { left:  33%; }
-.carousel-inner .prev        { left: -33%; }
-.carousel-control.left,.carousel-control.right {background-image:none;}
-.item:not(.prev) {visibility: visible;}
-.item.right:not(.prev) {visibility: hidden;}
-.rightest{ visibility: visible;}
+ main p{
+   margin-top: 2%;
+   margin-bottom: 2%;
+   margin-left: 50%;
+   font-weight: bold;
+   font-size: 16px;
+ }
+
+input .saisie{
+  margin-left: 3% !important;
+  margin-bottom: 3% !important;
+  width: 10% !important;
+}
+
+
+.images{
+  max-width: 25%;
+  display: inline-block;
+}
+
+.scroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.btn {
+  background: #FCD202;
+  background-image: -webkit-linear-gradient(top, #FCD202, #FFB702);
+  background-image: -moz-linear-gradient(top, #FCD202, #FFB702);
+  background-image: -ms-linear-gradient(top, #FCD202, #FFB702);
+  background-image: -o-linear-gradient(top, #FCD202, #FFB702);
+  background-image: linear-gradient(to bottom, #FCD202, #FFB702);
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #4f4848;
+  font-size: 14px;
+  padding: 6px 9px 6px 9px;
+  border: solid #4f4848 2px;
+  text-decoration: none;
+  margin-top: 1%;
+}
+
+.btn:hover {
+  background: #FFA202;
+  background-image: -webkit-linear-gradient(top, #FFA202, #FFA202);
+  background-image: -moz-linear-gradient(top, #FFA202, #FFA202);
+  background-image: -ms-linear-gradient(top, #FFA202, #FFA202);
+  background-image: -o-linear-gradient(top, #FFA202, #FFA202);
+  background-image: linear-gradient(to bottom, #FFA202, #FFA202);
+  text-decoration: none;
+}
+
+.git{
+  width : 10%;
+  height: 10%;
+}
+
+.logo{
+  width : 10%;
+  height: 10%;
+}

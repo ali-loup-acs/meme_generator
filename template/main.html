@@ -1,0 +1,27 @@
+<main class="container">
+  <div class="row scroll">
+    {{#images}}
+      <img class="img-responsive images" src="images/{{id}}.{{type}}" alt="{{name}}">
+    {{/images}}
+  </div>
+  <form action="meme_creation.php" method="post">
+    <div class="row">
+      <div class="col-md-6">
+        <select name="librairieTexte">
+          <option value="" disabled selected>Sélectionner un Texte</option>
+          {{#textes}}
+          <option value="{{text}}">{{text}}</option>
+          {{/textes}}
+        </select>
+        <p>OU</p>
+        <input type="text" name="text" value="" placeholder="Entrez votre texte ...">
+        <input type="text" name="image" id="image" value="" style="display:none;">
+      </div>
+      <div class="col-md-6">
+        <img class="col-md-6 img-responsive saisie" id="view" src="" alt="Selectionner votre image...">
+      </div>
+    </div>
+   <input class="btn" type="submit">
+  </form>
+</main>
+<!-- texte-->

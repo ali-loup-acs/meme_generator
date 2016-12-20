@@ -1,21 +1,12 @@
-$('#myCarousel').carousel({
-  interval: 40000
-});
-
-$('.carousel .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-
-  if (next.next().length>0) {
-
-      next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
-
-  }
-  else {
-      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-
-  }
+$('.images').click(function(){
+  $('#view')[0].src = $(this)[0].src;
+    /*
+    génération du chemin pour accéder à l'image
+    */
+    var currentPath = "";
+    var realPath = $(this)[0].src.split('/');
+    currentPath += realPath.pop();
+    currentPath = '/' + currentPath;
+    currentPath = realPath.pop() + currentPath;
+    $('#image')[0].value = currentPath;
 });
